@@ -1,0 +1,54 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+
+# VS Code settings
+.vscode/
+
+# Streamlit secrets/cache
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# FAISS vector database (optional)
+*.faiss
+*.pkl
+
+# Ollama / model outputs (optional)
+models/
+data/
+
+# Temporary files
+temp/
+tmp/
